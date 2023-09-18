@@ -1,6 +1,6 @@
-public class Tarefa {
+package List.OperacoesBasicas;
 
-    //atributo
+public class Tarefa {
     private String descricao;
 
     public Tarefa(String descricao) {
@@ -8,6 +8,10 @@ public class Tarefa {
     }
 
     public String getDescricao() {
-        return descricao;
+        return this.descricao;
+    }
+
+    public String toString() {
+        return this.descricao;
     }
 }
